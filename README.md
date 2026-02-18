@@ -45,7 +45,7 @@ Develop a modern data Warehouse using SQL Server to consolidate sales data, enab
 - **Scope**: Focus on the latest dataset only; historization of data is not required.
 - **Documentation**: provide clear documentation of the data model to support both buisness stakeholders and analytics teams.
 
-  ---
+ ---
 
   ### BI: Analytics & Reporting (Data Analytics)
 
@@ -57,7 +57,7 @@ Develop a modern data Warehouse using SQL Server to consolidate sales data, enab
 
     These Insights empower stakeholders with key business matrics, enabling strategic, decision_making.
 
-    ---
+ ---
 
   # Project Structure
   
@@ -86,23 +86,26 @@ Develop a modern data Warehouse using SQL Server to consolidate sales data, enab
 
  ---
 
-   # Technologies Used
+# Technologies Used
+
   - **SQL**
   - **Data Warehousing Concepts**
   - **ETL Process**
   - **GitHub**
 
-  ---
+    ---
  
-    # ETL Process
+# ETL Process
+
    - 1. Load raw CSV files into Bronze Tables.
    - 2. Clean and transform data in Silver layer.
    - 3. Prepare analytical tables for reporting.
    - 4. Implement stored procedures for automation.
- 
-  ---
 
-    # Key Concepts Implemented
+---
+
+# Key Concepts Implemented
+
   - **Data Modelling**
   - **Data Cleaning**
   - **Stored Procedure**
@@ -113,15 +116,15 @@ Develop a modern data Warehouse using SQL Server to consolidate sales data, enab
 
   ---
 
-    ## Licence
+ ## Licence
 
-    This project is licensed under the [MLT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
+   This project is licensed under the [MLT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
 
-    ## About Us
+ ## About Us
 
-    Hi there! I'm **Arti Singh**, also known as **ArtiSinghDA**. I'm an **Aspiring Data Analyst** with a strong academic bacground in **Statistics and Research**.
-    I'm actively learning and improving every day.
-    Open to entry-level Data Analyst Opportunities.
+ Hi there! I'm **Arti Singh**, also known as **ArtiSinghDA**. I'm an **Aspiring Data Analyst** with a strong academic bacground in **Statistics and Research**.
+ I'm actively learning and improving every day.
+ Open to entry-level Data Analyst Opportunities.
 
    
 
