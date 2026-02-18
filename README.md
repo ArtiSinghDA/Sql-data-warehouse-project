@@ -5,24 +5,29 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 
 ---
 
+# Project Objective
+To build a scalable and structured SQL-based data warehouse system capabale of handling raw data and transform it into business-ready insights.
+
 # Data Architecture
+
 The data architecture for this project follows Medallion Architecture **Bronze, Silver and Gold** layers:
+
 ![Architecture Diagram](docs/data_architecture.png)
 
-- 1.**Bronze Layer**: Stores raw data as-is from the source systems.
+- 1. **Bronze Layer**: Stores raw data as-is from the source systems.
    Data is ingested from CSV Files into SQL Server Database.
-- 2.**Silver Layer**: This layer includes data cleansing,standardization, and normalization processes to prepare data for analysis.
-- 3.**Gold Layer**: Houses business ready data modeled into a star schema required for reporting and analytics.
+- 2. **Silver Layer**: This layer includes data cleansing,standardization, and normalization processes to prepare data for analysis.
+- 3. **Gold Layer**: Houses business ready data modeled into a star schema required for reporting and analytics.
 
 ---
 
 # Project Overview
 This Project involves: 
 
-- 1.**Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze, Silver, and Gold** layers.
-- 2.**ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
-- 3.**Data Modelling**: Developing fact and dimension tables optimized for analytical queries.
-- 4.**Analytical & Reporting**: Creating SQL-based reports and Dashboards for actionable insights.
+- **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze, Silver, and Gold** layers.
+- **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
+- **Data Modelling**: Developing fact and dimension tables optimized for analytical queries.
+- **Analytical & Reporting**: Creating SQL-based reports and Dashboards for actionable insights.
 
 ---
 
@@ -53,6 +58,60 @@ Develop a modern data Warehouse using SQL Server to consolidate sales data, enab
     These Insights empower stakeholders with key business matrics, enabling strategic, decision_making.
 
     ---
+
+  # Project Structure
+  
+  data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                               # Project documentation and architecture details
+│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
+│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
+│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
+│   ├── data_models.drawio              # Draw.io file for data models (star schema)
+│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
+│
+├── tests/                              # Test scripts and quality files
+│
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
+├── .gitignore                          # Files and directories to be ignored by Git                 
+
+ ---
+
+   # Technologies Used
+  - **SQL**
+  - **Data Warehousing Concepts**
+  - **ETL Process**
+  - **GitHub**
+
+  ---
+ 
+    # ETL Process
+   - 1. Load raw CSV files into Bronze Tables.
+   - 2. Clean and transform data in Silver layer.
+   - 3. Prepare analytical tables for reporting.
+   - 4. Implement stored procedures for automation.
+ 
+  ---
+
+    # Key Concepts Implemented
+  - **Data Modelling**
+  - **Data Cleaning**
+  - **Stored Procedure**
+  - **Aggregations**
+  - **Joins & Subqueries**
+  - **CTE**
+  - **Window Functions**
+
+  ---
 
     ## Licence
 
