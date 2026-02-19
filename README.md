@@ -99,10 +99,10 @@ data-warehouse-project/
  
 ## ETL Process
 
-   - 1. Load raw CSV files into Bronze Tables.
-   - 2. Clean and transform data in Silver layer.
-   - 3. Prepare analytical tables for reporting.
-   - 4. Implement stored procedures for automation.
+- Load raw CSV files into Bronze Tables.
+- Clean and transform data in Silver layer.
+- Prepare analytical tables for reporting.
+- Implement stored procedures for automation.
 
 ---
 
