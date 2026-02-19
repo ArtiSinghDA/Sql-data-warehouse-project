@@ -21,7 +21,7 @@ The data architecture for this project follows Medallion Architecture **Bronze, 
 
 ---
 
-# Project Overview
+## Project Overview
 This Project involves: 
 
 - **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze, Silver, and Gold** layers.
@@ -61,7 +61,7 @@ Develop a modern data Warehouse using SQL Server to consolidate sales data, enab
 
   # Project Structure
   
-  data-warehouse-project/
+ data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
@@ -82,11 +82,11 @@ Develop a modern data Warehouse using SQL Server to consolidate sales data, enab
 │
 ├── README.md                           # Project overview and instructions
 ├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git                 
+├── .gitignore                          # Files and directories to be ignored by Git
 
  ---
 
-# Technologies Used
+## Technologies Used
 
   - **SQL**
   - **Data Warehousing Concepts**
@@ -95,7 +95,7 @@ Develop a modern data Warehouse using SQL Server to consolidate sales data, enab
 
     ---
  
-# ETL Process
+## ETL Process
 
    - 1. Load raw CSV files into Bronze Tables.
    - 2. Clean and transform data in Silver layer.
@@ -104,7 +104,7 @@ Develop a modern data Warehouse using SQL Server to consolidate sales data, enab
 
 ---
 
-# Key Concepts Implemented
+## Key Concepts Implemented
 
   - **Data Modelling**
   - **Data Cleaning**
