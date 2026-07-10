@@ -118,6 +118,11 @@ data-warehouse-project/
 
   ---
 
+### 📊 Exploratory Data Analysis
+After building the warehouse, I performed EDA on the Gold layer to answer key business questions around customer distribution, sales performance, and product ranking. See [analytics/eda](./analytics/eda) for the full set of queries.
+
+  ---
+  
  ## Licence
 
    This project is licensed under the [MLT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
@@ -129,6 +134,5 @@ data-warehouse-project/
  Open to entry-level Data Analyst Opportunities.
 
    
-
 
     
