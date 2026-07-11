@@ -123,7 +123,7 @@ After building the warehouse, I performed EDA on the Gold layer to answer key bu
 
   ---
   
- ## Licence
+ ## License
 
    This project is licensed under the [MLT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
 
